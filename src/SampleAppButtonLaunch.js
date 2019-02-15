@@ -15,13 +15,12 @@ class SampleAppButtonLaunch extends React.Component {
   }
 
   authenticatedFunction = (logout) => {
-    return (<div>
-      You're logged in!
-            <br />
-      <br />
-      <button onClick={logout} className="Button">Logout</button>
-      <br />
-    </div>);
+    return (
+      <div>
+        <button onClick={logout} className="Button">Logout</button>
+        <br />
+      </div>
+    );
   }
 
   render() {
